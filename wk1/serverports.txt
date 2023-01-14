@@ -1,0 +1,30 @@
+1) What is the definition of server port?
+Web server ports are the logical endpoints of a network connection that is used to exchange information between a web server and a web client.  These ports are assigned a unique number to identify them separately. 
+Port 80 and 443 are the two standard ports used by web servers to communicate with the web clients.
+
+2) What is server port range?
+Port numbers range from 0 to 65536, but only ports numbers 0 to 1024 are reserved for privileged services and designated as well-known ports. 
+
+3) How many bits does number above represent?
+A port number is a 16-bit integer ranging from 0 to 65535.
+
+4) State 10 common server ports
+HTTP – Port 80
+HTTPS – 443
+FTP – 21
+FTPS / SSH – 22
+POP3 – 110
+POP3 SSL – 995
+IMAP – 143
+IMAP SSL – 993
+SMTP – 25 (Alternate: 26)
+SMTP SSL – 587
+MySQL – 3306
+cPanel – 2082
+cPanel SSL – 2083
+WHM (Webhost Manager) – 2086
+WHM (Webhost Manager) SSL – 2087
+Webmail – 2095
+Webmail SSL – 2096
+WebDAV/WebDisk – 2077
+WebDAV/WebDisk SSL – 20787

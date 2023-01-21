@@ -1,0 +1,29 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping www.costco.ca
+PING e11588.a.akamaiedge.net (23.192.71.241) 56(84) bytes of data.
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=1 ttl=55 time=12.0 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=2 ttl=55 time=11.3 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=3 ttl=55 time=11.3 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=4 ttl=55 time=11.3 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=5 ttl=55 time=19.4 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=6 ttl=55 time=11.9 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=7 ttl=55 time=11.3 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=8 ttl=55 time=11.3 ms
+64 bytes from a23-192-71-241.deploy.static.akamaitechnologies.com (23.192.71.241): icmp_seq=9 ttl=55 time=11.7 ms
+^C
+--- e11588.a.akamaiedge.net ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8011ms
+rtt min/avg/max/mdev = 11.292/12.400/19.425/2.498 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 104.124.146.197
+PING 104.124.146.197 (104.124.146.197) 56(84) bytes of data.
+64 bytes from 104.124.146.197: icmp_seq=1 ttl=51 time=53.6 ms
+64 bytes from 104.124.146.197: icmp_seq=2 ttl=51 time=53.3 ms
+64 bytes from 104.124.146.197: icmp_seq=3 ttl=51 time=52.9 ms
+64 bytes from 104.124.146.197: icmp_seq=4 ttl=51 time=52.9 ms
+64 bytes from 104.124.146.197: icmp_seq=5 ttl=51 time=52.8 ms
+64 bytes from 104.124.146.197: icmp_seq=6 ttl=51 time=52.9 ms
+64 bytes from 104.124.146.197: icmp_seq=7 ttl=51 time=52.9 ms
+64 bytes from 104.124.146.197: icmp_seq=8 ttl=51 time=52.9 ms
+^C
+--- 104.124.146.197 ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7011ms
+rtt min/avg/max/mdev = 52.794/53.017/53.624/0.273 ms

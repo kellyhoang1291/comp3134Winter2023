@@ -1,0 +1,102 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap www.costco.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 15:56 UTC
+Nmap scan report for www.costco.ca (23.66.194.74)
+Host is up (0.012s latency).
+rDNS record for 23.66.194.74: a23-66-194-74.deploy.static.akamaitechnologies.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.36 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap www.georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 15:56 UTC
+Nmap scan report for www.georgebrown.ca (99.79.139.11)
+Host is up (0.0083s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap www.forbes.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 15:57 UTC
+Nmap scan report for www.forbes.com (151.101.126.49)
+Host is up (0.0010s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+=========================================================================================================
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 www.costco.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 15:58 UTC
+Nmap scan report for www.costco.ca (23.192.71.241)
+Host is up (0.011s latency).
+rDNS record for 23.192.71.241: a23-192-71-241.deploy.static.akamaitechnologies.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 443 www.costco.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 15:58 UTC
+Nmap scan report for www.costco.ca (23.66.194.74)
+Host is up (0.012s latency).
+rDNS record for 23.66.194.74: a23-66-194-74.deploy.static.akamaitechnologies.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
+
+=========================================================================================================
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 0-100 www.georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 16:00 UTC
+Nmap scan report for www.georgebrown.ca (99.79.139.11)
+Host is up (0.0084s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.79 seconds
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 0-100 www.facebook.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 16:00 UTC
+Nmap scan report for www.facebook.com (31.13.80.36)
+Host is up (0.00055s latency).
+Other addresses for www.facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 100 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+============================================================================================================
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F www.google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 16:01 UTC
+Nmap scan report for www.google.com (173.194.218.106)
+Host is up (0.032s latency).
+Other addresses for www.google.com (not scanned): 173.194.218.103 173.194.218.147 173.194.218.104 173.194.218.105 173.194.218.99 2607:f8b0:400b:803::2004
+rDNS record for 173.194.218.106: vx-in-f106.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.91 seconds
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F www.georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 16:02 UTC
+Nmap scan report for www.georgebrown.ca (99.79.139.11)
+Host is up (0.0084s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.92 seconds

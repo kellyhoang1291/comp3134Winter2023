@@ -1,0 +1,13 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# traceroute www.costco.ca
+traceroute to www.costco.ca (23.66.194.74), 30 hops max, 60 byte packets
+ 1  162.243.190.7 (162.243.190.7)  1.366 ms  1.331 ms  1.315 ms
+ 2  138.197.249.72 (138.197.249.72)  1.050 ms 138.197.249.84 (138.197.249.84)  1.112 ms 138.197.249.76 (138.197.249.76)  1.077 ms
+ 3  138.197.249.82 (138.197.249.82)  1.316 ms 138.197.249.78 (138.197.249.78)  1.122 ms 138.197.249.82 (138.197.249.82)  1.290 ms
+ 4  zayo.ip4.torontointernetxchange.net (206.108.35.76)  5.892 ms  6.234 ms  6.218 ms
+ 5  ae25.cs1.lga5.us.eth.zayo.com (64.125.23.116)  13.751 ms  13.739 ms *
+ 6  * * *
+ 7  209.66.125.170.IPYX-244624-003-ZYO.zip.zayo.com (209.66.125.170)  44.095 ms  44.074 ms  19.037 ms
+ 8  * * *
+ 9  * * *
+10  * * *
+11  a23-66-194-74.deploy.static.akamaitechnologies.com (23.66.194.74)  12.296 ms  12.281 ms  12.266 ms

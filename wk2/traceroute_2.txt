@@ -1,0 +1,17 @@
+C:\Users\Phuong Hoang>tracert 147.182.158.168
+
+Tracing route to 147.182.158.168 over a maximum of 30 hops
+
+  1     4 ms     5 ms     3 ms  mynetwork.home [192.168.2.1]
+  2     7 ms     7 ms    12 ms  10.11.35.201
+  3     *        *        *     Request timed out.
+  4     7 ms     7 ms     7 ms  cr02-toroon2148w_0/2/0/8_lr4.net.bell.ca [142.124.126.250]
+  5     *        6 ms     *     cr02-toroonxnhrz-bundle-ether2.net.bell.ca [142.124.127.211]
+  6     5 ms     5 ms     5 ms  cr02-toroonxnhrz_bundle-ether10.net.bell.ca [142.124.127.39]
+  7     6 ms     4 ms     4 ms  toro-b3-link.ip.twelve99.net [213.248.97.222]
+  8     4 ms     9 ms     5 ms  digitalocean-ic313814-toro-b1.ip.twelve99-cust.net [62.115.55.30]
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     7 ms     7 ms     6 ms  147.182.158.168
+
+Trace complete.

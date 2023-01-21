@@ -1,0 +1,12 @@
+C:\Users\Phuong Hoang>ping 147.182.158.168
+
+Pinging 147.182.158.168 with 32 bytes of data:
+Reply from 147.182.158.168: bytes=32 time=4ms TTL=53
+Reply from 147.182.158.168: bytes=32 time=4ms TTL=53
+Reply from 147.182.158.168: bytes=32 time=5ms TTL=53
+Reply from 147.182.158.168: bytes=32 time=5ms TTL=53
+
+Ping statistics for 147.182.158.168:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 5ms, Average = 4ms

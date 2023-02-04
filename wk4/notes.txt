@@ -1,0 +1,2 @@
+Firewall: rules that govern inbound and outbound traffic
+Default: all traffic is allowed on port 22, 80, 443

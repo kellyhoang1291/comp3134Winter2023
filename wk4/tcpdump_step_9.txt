@@ -1,0 +1,7 @@
+19:06:07.060633 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 3918763159:3918763195, ack 727000650, win 501, length 36
+19:06:07.062227 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 36:144, ack 1, win 501, length 108
+19:06:07.062297 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 144:288, ack 1, win 501, length 144
+19:06:07.062420 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 288:324, ack 1, win 501, length 36
+19:06:07.071091 IP 142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 2058, length 0
+19:06:07.072059 IP 142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 324, win 2064, length 0
+

@@ -1,0 +1,96 @@
+19:01:26.063693 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 3918737875:3918737983, ack 726978950, win 501, length 108
+19:01:26.063939 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 108:144, ack 1, win 501, length 36
+19:01:26.064010 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 144:252, ack 1, win 501, length 108
+19:01:26.064117 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 252:288, ack 1, win 501, length 36
+19:01:26.074639 IP 142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 2059, length 0
+19:01:26.075580 IP 142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 252, win 2064, length 0
+19:01:26.091470 IP ec2-16-170-230-190.eu-north-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 25, seq 9880, length 16
+19:01:26.091527 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-16-170-230-190.eu-north-1.compute.amazonaws.com: ICMP echo reply, id 25, seq 9880, length 16
+19:01:26.128671 IP 142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 288, win 2064, length 0
+19:01:27.087472 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51505 > 67.207.67.3.domain: 54820+ [1au] PTR? 29.60.188.142.in-addr.arpa. (55)
+19:01:27.087563 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.57028 > 67.207.67.2.domain: 42089+ [1au] PTR? 29.60.188.142.in-addr.arpa. (55)
+19:01:27.087622 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470 > 67.207.67.2.domain: 9279+ [1au] PTR? 29.60.188.142.in-addr.arpa. (55)
+19:01:27.088542 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.57028: 42089 NXDomain 0/1/1 (109)
+19:01:27.088543 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51505: 54820 NXDomain 0/1/1 (109)
+19:01:27.088543 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470: 9279 NXDomain 0/1/1 (109)
+19:01:27.088665 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.57028 > 67.207.67.2.domain: 42089+ PTR? 29.60.188.142.in-addr.arpa. (44)
+19:01:27.088730 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470 > 67.207.67.2.domain: 9279+ PTR? 29.60.188.142.in-addr.arpa. (44)
+19:01:27.088821 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51505 > 67.207.67.3.domain: 54820+ PTR? 29.60.188.142.in-addr.arpa. (44)
+19:01:27.089104 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470: 9279 NXDomain 0/1/0 (98)
+19:01:27.089104 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.57028: 42089 NXDomain 0/1/0 (98)
+19:01:27.089104 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51505: 54820 NXDomain 0/1/0 (98)
+19:01:27.089817 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.33936 > 67.207.67.3.domain: 24239+ [1au] PTR? 168.158.182.147.in-addr.arpa. (57)
+19:01:27.089885 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.34015 > 67.207.67.2.domain: 45804+ [1au] PTR? 168.158.182.147.in-addr.arpa. (57)
+19:01:27.089940 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51361 > 67.207.67.2.domain: 2039+ [1au] PTR? 168.158.182.147.in-addr.arpa. (57)
+19:01:27.090257 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51361: 2039 NXDomain 0/1/1 (124)
+19:01:27.090358 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51361 > 67.207.67.2.domain: 2039+ PTR? 168.158.182.147.in-addr.arpa. (46)
+19:01:27.090597 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51361: 2039 NXDomain 0/1/0 (113)
+19:01:27.090616 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.34015: 45804 NXDomain 0/1/1 (124)
+19:01:27.090721 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.34015 > 67.207.67.2.domain: 45804+ PTR? 168.158.182.147.in-addr.arpa. (46)
+19:01:27.091393 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.34015: 45804 NXDomain 0/1/0 (113)
+19:01:27.104671 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.33936: 24239 NXDomain 0/1/1 (124)
+19:01:27.104940 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.33936 > 67.207.67.3.domain: 24239+ PTR? 168.158.182.147.in-addr.arpa. (46)
+19:01:27.105321 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.33936: 24239 NXDomain 0/1/0 (113)
+19:01:27.106126 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.40577 > 67.207.67.3.domain: 21362+ [1au] PTR? 190.230.170.16.in-addr.arpa. (56)
+19:01:27.106200 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.53020 > 67.207.67.2.domain: 37897+ [1au] PTR? 190.230.170.16.in-addr.arpa. (56)
+19:01:27.106262 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.36840 > 67.207.67.2.domain: 15853+ [1au] PTR? 190.230.170.16.in-addr.arpa. (56)
+19:01:27.118221 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.53020: 37897 1/0/1 PTR ec2-16-170-230-190.eu-north-1.compute.amazonaws.com. (121)
+19:01:27.133665 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.36840: 15853 1/0/1 PTR ec2-16-170-230-190.eu-north-1.compute.amazonaws.com. (121)
+19:01:27.133724 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 36840 unreachable, length 157
+19:01:27.234177 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.40577: 21362 1/0/1 PTR ec2-16-170-230-190.eu-north-1.compute.amazonaws.com. (121)
+19:01:27.234223 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.3: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 40577 unreachable, length 157
+19:01:27.954961 IP ec2-54-207-134-161.sa-east-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 26, seq 20598, length 16
+19:01:27.955005 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-54-207-134-161.sa-east-1.compute.amazonaws.com: ICMP echo reply, id 26, seq 20598, length 16
+19:01:28.110920 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.42812 > 67.207.67.3.domain: 233+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+19:01:28.110992 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.35838 > 67.207.67.2.domain: 10172+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+19:01:28.111048 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.59295 > 67.207.67.2.domain: 21308+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+19:01:28.111234 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.42812: 233 NXDomain 0/1/1 (120)
+19:01:28.111285 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35838: 10172 NXDomain 0/1/1 (120)
+19:01:28.111336 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.42812 > 67.207.67.3.domain: 233+ PTR? 3.67.207.67.in-addr.arpa. (42)
+19:01:28.111382 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.35838 > 67.207.67.2.domain: 10172+ PTR? 3.67.207.67.in-addr.arpa. (42)
+19:01:28.111533 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.59295: 21308 NXDomain 0/1/1 (120)
+19:01:28.111569 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.59295 > 67.207.67.2.domain: 21308+ PTR? 3.67.207.67.in-addr.arpa. (42)
+19:01:28.111642 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.42812: 233 NXDomain 0/1/0 (109)
+19:01:28.111692 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35838: 10172 NXDomain 0/1/0 (109)
+19:01:28.111840 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.59295: 21308 NXDomain 0/1/0 (109)
+19:01:28.112365 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470 > 67.207.67.3.domain: 4388+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+19:01:28.112431 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39749 > 67.207.67.2.domain: 60284+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+19:01:28.112485 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.36320 > 67.207.67.2.domain: 36113+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+19:01:28.112684 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470: 4388 NXDomain 0/1/1 (120)
+19:01:28.112757 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470 > 67.207.67.3.domain: 4388+ PTR? 2.67.207.67.in-addr.arpa. (42)
+19:01:28.112832 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39749: 60284 NXDomain 0/1/1 (120)
+19:01:28.112832 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.36320: 36113 NXDomain 0/1/1 (120)
+19:01:28.112869 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39749 > 67.207.67.2.domain: 60284+ PTR? 2.67.207.67.in-addr.arpa. (42)
+19:01:28.112907 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.36320 > 67.207.67.2.domain: 36113+ PTR? 2.67.207.67.in-addr.arpa. (42)
+19:01:28.113033 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60470: 4388 NXDomain 0/1/0 (109)
+19:01:28.113137 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39749: 60284 NXDomain 0/1/0 (109)
+19:01:28.113194 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.36320: 36113 NXDomain 0/1/0 (109)
+19:01:28.113897 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.42505 > 67.207.67.3.domain: 7465+ [1au] PTR? 161.134.207.54.in-addr.arpa. (56)
+19:01:28.114055 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.56725 > 67.207.67.2.domain: 16079+ [1au] PTR? 161.134.207.54.in-addr.arpa. (56)
+19:01:28.114114 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.38837 > 67.207.67.2.domain: 60703+ [1au] PTR? 161.134.207.54.in-addr.arpa. (56)
+19:01:28.130983 IP ec2-18-230-187-112.sa-east-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 26, seq 20598, length 16
+19:01:28.131029 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-18-230-187-112.sa-east-1.compute.amazonaws.com: ICMP echo reply, id 26, seq 20598, length 16
+19:01:28.131090 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.56725: 16079 1/0/1 PTR ec2-54-207-134-161.sa-east-1.compute.amazonaws.com. (120)
+19:01:28.146325 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.42505: 7465 1/0/1 PTR ec2-54-207-134-161.sa-east-1.compute.amazonaws.com. (120)
+19:01:28.146371 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.3: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 42505 unreachable, length 156
+19:01:28.146779 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.38837: 60703 1/0/1 PTR ec2-54-207-134-161.sa-east-1.compute.amazonaws.com. (120)
+19:01:28.146796 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 38837 unreachable, length 156
+19:01:28.544469 IP ec2-18-230-64-101.sa-east-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 26, seq 20598, length 16
+19:01:28.544517 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-18-230-64-101.sa-east-1.compute.amazonaws.com: ICMP echo reply, id 26, seq 20598, length 16
+19:01:29.135066 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.48119 > 67.207.67.3.domain: 62173+ [1au] PTR? 112.187.230.18.in-addr.arpa. (56)
+19:01:29.135144 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.44008 > 67.207.67.2.domain: 1853+ [1au] PTR? 112.187.230.18.in-addr.arpa. (56)
+19:01:29.135204 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51037 > 67.207.67.2.domain: 42945+ [1au] PTR? 112.187.230.18.in-addr.arpa. (56)
+19:01:29.166234 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.48119: 62173 1/0/1 PTR ec2-18-230-187-112.sa-east-1.compute.amazonaws.com. (120)
+19:01:29.167242 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.42421 > 67.207.67.3.domain: 12602+ [1au] PTR? 101.64.230.18.in-addr.arpa. (55)
+19:01:29.167307 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39065 > 67.207.67.2.domain: 29930+ [1au] PTR? 101.64.230.18.in-addr.arpa. (55)
+19:01:29.167358 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.33924 > 67.207.67.2.domain: 26676+ [1au] PTR? 101.64.230.18.in-addr.arpa. (55)
+19:01:29.177996 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51037: 42945 1/0/1 PTR ec2-18-230-187-112.sa-east-1.compute.amazonaws.com. (120)
+19:01:29.178045 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 51037 unreachable, length 156
+19:01:29.178193 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.44008: 1853 1/0/1 PTR ec2-18-230-187-112.sa-east-1.compute.amazonaws.com. (120)
+19:01:29.178198 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 44008 unreachable, length 156
+19:01:29.184557 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.42421: 12602 1/0/1 PTR ec2-18-230-64-101.sa-east-1.compute.amazonaws.com. (118)
+19:01:29.185033 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39065: 29930 1/0/1 PTR ec2-18-230-64-101.sa-east-1.compute.amazonaws.com. (118)
+19:01:29.185059 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 39065 unreachable, length 154
+19:01:29.188982 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.33924: 26676 1/0/1 PTR ec2-18-230-64-101.sa-east-1.compute.amazonaws.com. (118)
+19:01:29.189014 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 33924 unreachable, length 154
+

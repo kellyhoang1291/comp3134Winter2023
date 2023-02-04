@@ -1,0 +1,17 @@
+19:48:21.609312 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 3918785027:3918785135, ack 727014518, win 501, length 108
+19:48:21.609379 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 108:252, ack 1, win 501, length 144
+19:48:21.609468 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], seq 252:288, ack 1, win 501, length 36
+19:48:45.774403 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.60820: Flags [.], ack 2289634319, win 501, length 0
+19:49:05.688691 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 142.188.60.29: ICMP echo reply, id 4, seq 12087, length 40
+19:49:06.713339 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 142.188.60.29: ICMP echo reply, id 4, seq 12089, length 40
+19:49:07.735398 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 142.188.60.29: ICMP echo reply, id 4, seq 12091, length 40
+19:49:08.753401 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 142.188.60.29: ICMP echo reply, id 4, seq 12093, length 40
+19:49:20.632955 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [P.], seq 818349410:818349494, ack 3409328481, win 501, length 84
+19:49:20.645592 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [P.], seq 84:136, ack 53, win 501, length 52
+19:49:20.658799 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [P.], seq 136:3040, ack 261, win 501, length 2904
+19:49:20.659097 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [P.], seq 3040:3388, ack 261, win 501, length 348
+19:49:20.672584 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [P.], seq 3388:3456, ack 313, win 501, length 68
+19:49:20.673297 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [.], ack 313, win 501, length 0
+19:49:20.683640 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.61355: Flags [P.], seq 3456:3524, ack 365, win 501, length 68
+19:50:01.550357 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.60820: Flags [.], ack 1, win 501, length 0
+

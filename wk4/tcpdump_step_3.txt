@@ -1,0 +1,308 @@
+19:04:08.892281 IP (tos 0x10, ttl 64, id 30755, offset 0, flags [DF], proto TCP (6), length 84)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], cksum 0xfd7e (incorrect -> 0xd2e9), seq 3918747211:3918747255, ack 726987042, win 501, length 44
+E..Tx#@.@..8......<....
+..VK+T."P....~...G...|...,?.K ...~yXdB@7.?.<c._.\V.KvB.j{.4.
+19:04:08.892341 IP (tos 0x10, ttl 64, id 30756, offset 0, flags [DF], proto TCP (6), length 148)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], cksum 0xfdbe (incorrect -> 0xee72), seq 44:152, ack 1, win 501, length 108
+E...x$@.@.........<....
+..Vw+T."P........AV..?E`N.....N@.vhuq..an..Yx..=..6...B7..d..'`t..2. K.@.`..^].I`.X-5.W.l.9.\1.+Y#&C.....h...(..r..^.U..id.c
+19:04:08.892498 IP (tos 0x10, ttl 64, id 30757, offset 0, flags [DF], proto TCP (6), length 76)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 142.188.60.29.58890: Flags [P.], cksum 0xfd76 (incorrect -> 0xe3c6), seq 152:188, ack 1, win 501, length 36
+E..Lx%@.@..>......<....
+..V.+T."P....v.....P0............(x.DTKD%..7.Tc.7_..
+19:04:08.904311 IP (tos 0x0, ttl 117, id 57184, offset 0, flags [DF], proto TCP (6), length 40)
+    142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x67ea (correct), ack 44, win 2063, length 0
+E..(.`@.u.)7..<......
+..+T."..VwP...g.........
+19:04:08.904311 IP (tos 0x0, ttl 117, id 57185, offset 0, flags [DF], proto TCP (6), length 40)
+    142.188.60.29.58890 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x675a (correct), ack 188, win 2063, length 0
+E..(.a@.u.)6..<......
+..+T."..W.P...gZ........
+19:04:09.903650 IP (tos 0x0, ttl 64, id 9208, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.46882 > 67.207.67.3.domain: 6905+ [1au] PTR? 29.60.188.142.in-addr.arpa. (55)
+E..S#.@.@.]q....C.C..".5.?...............29.60.188.142.in-addr.arpa.......)........
+19:04:09.903794 IP (tos 0x0, ttl 64, id 47889, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.49858 > 67.207.67.2.domain: 15694+ [1au] PTR? 29.60.188.142.in-addr.arpa. (55)
+E..S..@.@..X....C.C....5.?..=N...........29.60.188.142.in-addr.arpa.......)........
+19:04:09.903858 IP (tos 0x0, ttl 64, id 28080, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.49102 > 67.207.67.2.domain: 28718+ [1au] PTR? 29.60.188.142.in-addr.arpa. (55)
+E..Sm.@.@.......C.C....5.?..p............29.60.188.142.in-addr.arpa.......)........
+19:04:09.904683 IP (tos 0x0, ttl 60, id 34215, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.46882: 6905 NXDomain 0/1/1 (109)
+E.......<.?.C.C......5.".u.$.............29.60.188.142.in-addr.arpa..............(.*.z.arin.net..dns-ops.:x9.E.........
+....*0..)........
+19:04:09.904683 IP (tos 0x0, ttl 60, id 12690, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49858: 15694 NXDomain 0/1/1 (109)
+E...1...<...C.C......5...u|0=N...........29.60.188.142.in-addr.arpa..............(.*.z.arin.net..dns-ops.:x9.E.........
+....*0..)........
+19:04:09.904722 IP (tos 0x0, ttl 60, id 31250, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49102: 28718 NXDomain 0/1/1 (109)
+E...z...<.K"C.C......5...uLDp............29.60.188.142.in-addr.arpa..............(.*.z.arin.net..dns-ops.:x9.E.........
+....*0..)........
+19:04:09.904887 IP (tos 0x0, ttl 64, id 9209, offset 0, flags [DF], proto UDP (17), length 72)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.46882 > 67.207.67.3.domain: 6905+ PTR? 29.60.188.142.in-addr.arpa. (44)
+E..H#.@.@.]{....C.C..".5.4.v.............29.60.188.142.in-addr.arpa.....
+19:04:09.904941 IP (tos 0x0, ttl 64, id 28081, offset 0, flags [DF], proto UDP (17), length 72)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.49102 > 67.207.67.2.domain: 28718+ PTR? 29.60.188.142.in-addr.arpa. (44)
+E..Hm.@.@.......C.C....5.4.up............29.60.188.142.in-addr.arpa.....
+19:04:09.904987 IP (tos 0x0, ttl 64, id 47890, offset 0, flags [DF], proto UDP (17), length 72)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.49858 > 67.207.67.2.domain: 15694+ PTR? 29.60.188.142.in-addr.arpa. (44)
+E..H..@.@..b....C.C....5.4.u=N...........29.60.188.142.in-addr.arpa.....
+19:04:09.905117 IP (tos 0x0, ttl 60, id 34216, offset 0, flags [none], proto UDP (17), length 126)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.46882: 6905 NXDomain 0/1/0 (98)
+E..~....<.?.C.C......5.".j.=.............29.60.188.142.in-addr.arpa..............(.*.z.arin.net..dns-ops.:x9.E.........
+....*0
+19:04:09.905180 IP (tos 0x0, ttl 60, id 31251, offset 0, flags [none], proto UDP (17), length 126)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49102: 28718 NXDomain 0/1/0 (98)
+E..~z...<.K,C.C......5...ju]p............29.60.188.142.in-addr.arpa..............(.*.z.arin.net..dns-ops.:x9.E.........
+....*0
+19:04:09.905260 IP (tos 0x0, ttl 60, id 12691, offset 0, flags [none], proto UDP (17), length 126)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49858: 15694 NXDomain 0/1/0 (98)
+E..~1...<...C.C......5...j.I=N...........29.60.188.142.in-addr.arpa..............(.*.z.arin.net..dns-ops.:x9.E.........
+....*0
+19:04:09.905834 IP (tos 0x0, ttl 64, id 45811, offset 0, flags [DF], proto UDP (17), length 85)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.51853 > 67.207.67.3.domain: 4638+ [1au] PTR? 168.158.182.147.in-addr.arpa. (57)
+E..U..@.@..s....C.C....5.A...............168.158.182.147.in-addr.arpa.......)........
+19:04:09.905900 IP (tos 0x0, ttl 64, id 56985, offset 0, flags [DF], proto UDP (17), length 85)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.35145 > 67.207.67.2.domain: 37541+ [1au] PTR? 168.158.182.147.in-addr.arpa. (57)
+E..U..@.@.......C.C..I.5.A...............168.158.182.147.in-addr.arpa.......)........
+19:04:09.905953 IP (tos 0x0, ttl 64, id 6382, offset 0, flags [DF], proto UDP (17), length 85)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.47476 > 67.207.67.2.domain: 37451+ [1au] PTR? 168.158.182.147.in-addr.arpa. (57)
+E..U..@.@.hz....C.C..t.5.A...K...........168.158.182.147.in-addr.arpa.......)........
+19:04:09.906221 IP (tos 0x0, ttl 60, id 31252, offset 0, flags [none], proto UDP (17), length 152)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35145: 37541 NXDomain 0/1/1 (124)
+E...z...<.K.C.C......5.I...e.............168.158.182.147.in-addr.arpa.............. .7.ns1.digitalocean.com.
+hostmaster..c.....*0.....	:.......)........
+19:04:09.906248 IP (tos 0x0, ttl 60, id 12692, offset 0, flags [none], proto UDP (17), length 152)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47476: 37451 NXDomain 0/1/1 (124)
+E...1...<...C.C......5.t.....K...........168.158.182.147.in-addr.arpa.............. .7.ns1.digitalocean.com.
+hostmaster..c.....*0.....	:.......)........
+19:04:09.906277 IP (tos 0x0, ttl 64, id 56986, offset 0, flags [DF], proto UDP (17), length 74)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.35145 > 67.207.67.2.domain: 37541+ PTR? 168.158.182.147.in-addr.arpa. (46)
+E..J..@.@.......C.C..I.5.6.w.............168.158.182.147.in-addr.arpa.....
+19:04:09.906287 IP (tos 0x0, ttl 60, id 61089, offset 0, flags [none], proto UDP (17), length 152)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51853: 4638 NXDomain 0/1/1 (124)
+E.......<...C.C......5....7..............168.158.182.147.in-addr.arpa.............. .7.ns1.digitalocean.com.
+hostmaster..c.....*0.....	:.......)........
+19:04:09.906356 IP (tos 0x0, ttl 64, id 6383, offset 0, flags [DF], proto UDP (17), length 74)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.47476 > 67.207.67.2.domain: 37451+ PTR? 168.158.182.147.in-addr.arpa. (46)
+E..J..@.@.h.....C.C..t.5.6.w.K...........168.158.182.147.in-addr.arpa.....
+19:04:09.906448 IP (tos 0x0, ttl 64, id 45812, offset 0, flags [DF], proto UDP (17), length 74)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.51853 > 67.207.67.3.domain: 4638+ PTR? 168.158.182.147.in-addr.arpa. (46)
+E..J..@.@..}....C.C....5.6.x.............168.158.182.147.in-addr.arpa.....
+19:04:09.906607 IP (tos 0x0, ttl 60, id 12693, offset 0, flags [none], proto UDP (17), length 141)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47476: 37451 NXDomain 0/1/0 (113)
+E...1...<...C.C......5.t.y...K...........168.158.182.147.in-addr.arpa.............. .7.ns1.digitalocean.com.
+hostmaster..c.....*0.....	:.....
+19:04:09.906607 IP (tos 0x0, ttl 60, id 31253, offset 0, flags [none], proto UDP (17), length 141)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35145: 37541 NXDomain 0/1/0 (113)
+E...z...<.K.C.C......5.I.y...............168.158.182.147.in-addr.arpa.............. .7.ns1.digitalocean.com.
+hostmaster..c.....*0.....	:.....
+19:04:09.906698 IP (tos 0x0, ttl 60, id 61090, offset 0, flags [none], proto UDP (17), length 141)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51853: 4638 NXDomain 0/1/0 (113)
+E.......<...C.C......5...y9..............168.158.182.147.in-addr.arpa.............. .7.ns1.digitalocean.com.
+hostmaster..c.....*0.....	:.....
+19:04:10.926892 IP (tos 0x0, ttl 64, id 2624, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.45382 > 67.207.67.3.domain: 47462+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+E..Q
+@@.@.w+....C.C..F.5.=...f...........3.67.207.67.in-addr.arpa.......)........
+19:04:10.926965 IP (tos 0x0, ttl 64, id 28769, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.60559 > 67.207.67.2.domain: 15263+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+E..Qpa@.@.......C.C....5.=.~;............3.67.207.67.in-addr.arpa.......)........
+19:04:10.927014 IP (tos 0x0, ttl 64, id 6162, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.52220 > 67.207.67.2.domain: 28271+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+E..Q..@.@.iZ....C.C....5.=.~no...........3.67.207.67.in-addr.arpa.......)........
+19:04:10.927301 IP (tos 0x0, ttl 60, id 61237, offset 0, flags [none], proto UDP (17), length 148)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.45382: 47462 NXDomain 0/1/1 (120)
+E....5..<...C.C......5.F.....f...........3.67.207.67.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.......)........
+19:04:10.927381 IP (tos 0x0, ttl 60, id 31327, offset 0, flags [none], proto UDP (17), length 148)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.52220: 28271 NXDomain 0/1/1 (120)
+E...z_..<.J.C.C......5....+.no...........3.67.207.67.in-addr.arpa..............W.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.......)........
+19:04:10.927400 IP (tos 0x0, ttl 64, id 2625, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.45382 > 67.207.67.3.domain: 47462+ PTR? 3.67.207.67.in-addr.arpa. (42)
+E..F
+A@.@.w5....C.C..F.5.2.t.f...........3.67.207.67.in-addr.arpa.....
+19:04:10.927412 IP (tos 0x0, ttl 60, id 12855, offset 0, flags [none], proto UDP (17), length 148)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60559: 15263 NXDomain 0/1/1 (120)
+E...27..<...C.C......5....:(;............3.67.207.67.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.......)........
+19:04:10.927450 IP (tos 0x0, ttl 64, id 6163, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.52220 > 67.207.67.2.domain: 28271+ PTR? 3.67.207.67.in-addr.arpa. (42)
+E..F..@.@.id....C.C....5.2.sno...........3.67.207.67.in-addr.arpa.....
+19:04:10.927489 IP (tos 0x0, ttl 64, id 28770, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.60559 > 67.207.67.2.domain: 15263+ PTR? 3.67.207.67.in-addr.arpa. (42)
+E..Fpb@.@.......C.C....5.2.s;............3.67.207.67.in-addr.arpa.....
+19:04:10.927660 IP (tos 0x0, ttl 60, id 61238, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.45382: 47462 NXDomain 0/1/0 (109)
+E....6..<...C.C......5.F.u.H.f...........3.67.207.67.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.....
+19:04:10.927724 IP (tos 0x0, ttl 60, id 31328, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.52220: 28271 NXDomain 0/1/0 (109)
+E...z`..<.J.C.C......5...u*+no...........3.67.207.67.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.....
+19:04:10.927802 IP (tos 0x0, ttl 60, id 12856, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.60559: 15263 NXDomain 0/1/0 (109)
+E...28..<...C.C......5...u@.;............3.67.207.67.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.....
+19:04:10.928334 IP (tos 0x0, ttl 64, id 23898, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.46040 > 67.207.67.3.domain: 62329+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+E..Q]Z@.@.$.....C.C....5.=...y...........2.67.207.67.in-addr.arpa.......)........
+19:04:10.928395 IP (tos 0x0, ttl 64, id 20518, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.52978 > 67.207.67.2.domain: 45532+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+E..QP&@.@.1F....C.C....5.=.~.............2.67.207.67.in-addr.arpa.......)........
+19:04:10.928446 IP (tos 0x0, ttl 64, id 49380, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.41941 > 67.207.67.2.domain: 1415+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+E..Q..@.@.......C.C....5.=.~.............2.67.207.67.in-addr.arpa.......)........
+19:04:10.928714 IP (tos 0x0, ttl 60, id 12857, offset 0, flags [none], proto UDP (17), length 148)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.52978: 45532 NXDomain 0/1/1 (120)
+E...29..<...C.C......5...................2.67.207.67.in-addr.arpa..............z.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.......)........
+19:04:10.928715 IP (tos 0x0, ttl 60, id 61239, offset 0, flags [none], proto UDP (17), length 148)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.46040: 62329 NXDomain 0/1/1 (120)
+E....7..<...C.C......5.......y...........2.67.207.67.in-addr.arpa..............z.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.......)........
+19:04:10.928771 IP (tos 0x0, ttl 64, id 20519, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.52978 > 67.207.67.2.domain: 45532+ PTR? 2.67.207.67.in-addr.arpa. (42)
+E..FP'@.@.1P....C.C....5.2.s.............2.67.207.67.in-addr.arpa.....
+19:04:10.928865 IP (tos 0x0, ttl 64, id 23899, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.46040 > 67.207.67.3.domain: 62329+ PTR? 2.67.207.67.in-addr.arpa. (42)
+E..F][@.@.$.....C.C....5.2.t.y...........2.67.207.67.in-addr.arpa.....
+19:04:10.928938 IP (tos 0x0, ttl 60, id 12858, offset 0, flags [none], proto UDP (17), length 148)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.41941: 1415 NXDomain 0/1/1 (120)
+E...2:..<...C.C......5...................2.67.207.67.in-addr.arpa..............z.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.......)........
+19:04:10.928972 IP (tos 0x0, ttl 64, id 49381, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.41941 > 67.207.67.2.domain: 1415+ PTR? 2.67.207.67.in-addr.arpa. (42)
+E..F..@.@.......C.C....5.2.s.............2.67.207.67.in-addr.arpa.....
+19:04:10.929066 IP (tos 0x0, ttl 60, id 12859, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.52978: 45532 NXDomain 0/1/0 (109)
+E...2;..<...C.C......5...u.\.............2.67.207.67.in-addr.arpa..............z.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.....
+19:04:10.929141 IP (tos 0x0, ttl 60, id 61240, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.46040: 62329 NXDomain 0/1/0 (109)
+E....8..<...C.C......5...u...y...........2.67.207.67.in-addr.arpa..............z.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.....
+19:04:10.929239 IP (tos 0x0, ttl 60, id 12860, offset 0, flags [none], proto UDP (17), length 137)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.41941: 1415 NXDomain 0/1/0 (109)
+E...2<..<...C.C......5...u...............2.67.207.67.in-addr.arpa..............z.7.ns1.digitalocean.com.
+hostmaster..Y.. ..*0.....	:.....
+19:04:11.051213 IP (tos 0x0, ttl 236, id 31738, offset 0, flags [DF], proto ICMP (1), length 36)
+    ec2-16-171-57-20.eu-north-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 6, seq 9427, length 16
+E..${.@.......9.......S...$..@.o/..5..........
+19:04:11.051265 IP (tos 0x0, ttl 64, id 40373, offset 0, flags [none], proto ICMP (1), length 36)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-16-171-57-20.eu-north-1.compute.amazonaws.com: ICMP echo reply, id 6, seq 9427, length 16
+E..$....@.a.......9...[...$..@.o/..5
+19:04:11.214129 IP (tos 0x0, ttl 236, id 59943, offset 0, flags [DF], proto ICMP (1), length 36)
+    ec2-13-53-135-252.eu-north-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 6, seq 9427, length 16
+E..$.'@.... .5........6...$..@.o9.............
+19:04:11.214176 IP (tos 0x0, ttl 64, id 6393, offset 0, flags [none], proto ICMP (1), length 36)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-13-53-135-252.eu-north-1.compute.amazonaws.com: ICMP echo reply, id 6, seq 9427, length 16
+E..$....@..P.....5....>...$..@.o9...
+19:04:11.409257 IP (tos 0x0, ttl 238, id 4522, offset 0, flags [DF], proto ICMP (1), length 36)
+    ec2-16-171-0-131.eu-north-1.compute.amazonaws.com > lamp-ubuntu-s-1vcpu-1gb-tor1-01: ICMP echo request, id 6, seq 9427, length 16
+E..$..@...7...........J...$..@.oE.wa..........
+19:04:11.409319 IP (tos 0x0, ttl 64, id 40249, offset 0, flags [none], proto ICMP (1), length 36)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > ec2-16-171-0-131.eu-north-1.compute.amazonaws.com: ICMP echo reply, id 6, seq 9427, length 16
+E..$.9..@.............R...$..@.oE.wa
+19:04:11.951719 IP (tos 0x0, ttl 64, id 30647, offset 0, flags [DF], proto UDP (17), length 82)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.38378 > 67.207.67.3.domain: 1729+ [1au] PTR? 20.57.171.16.in-addr.arpa. (54)
+E..Rw.@.@.	.....C.C....5.>...............20.57.171.16.in-addr.arpa.......)........
+19:04:11.951807 IP (tos 0x0, ttl 64, id 10806, offset 0, flags [DF], proto UDP (17), length 82)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.35522 > 67.207.67.2.domain: 41628+ [1au] PTR? 20.57.171.16.in-addr.arpa. (54)
+E..R*6@.@.W5....C.C....5.>...............20.57.171.16.in-addr.arpa.......)........
+19:04:11.951877 IP (tos 0x0, ttl 64, id 36400, offset 0, flags [DF], proto UDP (17), length 82)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.35749 > 67.207.67.2.domain: 13525+ [1au] PTR? 20.57.171.16.in-addr.arpa. (54)
+E..R.0@.@..:....C.C....5.>..4............20.57.171.16.in-addr.arpa.......)........
+19:04:11.976010 IP (tos 0x0, ttl 60, id 34508, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.38378: 1729 1/0/1 20.57.171.16.in-addr.arpa. PTR ec2-16-171-57-20.eu-north-1.compute.amazonaws.com. (117)
+E.......<.>_C.C......5...}.t.............20.57.171.16.in-addr.arpa..............,.3.ec2-16-171-57-20
+eu-north-1.compute	amazonaws.com...)........
+19:04:11.976831 IP (tos 0x0, ttl 64, id 43380, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.49868 > 67.207.67.3.domain: 38657+ [1au] PTR? 252.135.53.13.in-addr.arpa. (55)
+E..S.t@.@.......C.C....5.?...............252.135.53.13.in-addr.arpa.......)........
+19:04:11.976893 IP (tos 0x0, ttl 64, id 64754, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.39745 > 67.207.67.2.domain: 60305+ [1au] PTR? 252.135.53.13.in-addr.arpa. (55)
+E..S..@.@..w....C.C..A.5.?...............252.135.53.13.in-addr.arpa.......)........
+19:04:11.976937 IP (tos 0x0, ttl 64, id 30944, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.58317 > 67.207.67.2.domain: 14028+ [1au] PTR? 252.135.53.13.in-addr.arpa. (55)
+E..Sx.@.@.......C.C....5.?..6............252.135.53.13.in-addr.arpa.......)........
+19:04:11.985146 IP (tos 0x0, ttl 60, id 31440, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35749: 13525 1/0/1 20.57.171.16.in-addr.arpa. PTR ec2-16-171-57-20.eu-north-1.compute.amazonaws.com. (117)
+E...z...<.J\C.C......5...}..4............20.57.171.16.in-addr.arpa..............,.3.ec2-16-171-57-20
+eu-north-1.compute	amazonaws.com...)........
+19:04:11.985198 IP (tos 0xc0, ttl 64, id 12698, offset 0, flags [none], proto ICMP (1), length 173)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 35749 unreachable, length 153
+	IP (tos 0x0, ttl 60, id 31440, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35749: 13525 1/0/1 20.57.171.16.in-addr.arpa. PTR ec2-16-171-57-20.eu-north-1.compute.amazonaws.com. (117)
+E...1...@.......C.C.........E...z...<.J\C.C......5...}..4............20.57.171.16.in-addr.arpa..............,.3.ec2-16-171-57-20
+eu-north-1.compute	amazonaws.com...)........
+19:04:11.995327 IP (tos 0x0, ttl 60, id 31443, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35522: 41628 1/0/1 20.57.171.16.in-addr.arpa. PTR ec2-16-171-57-20.eu-north-1.compute.amazonaws.com. (117)
+E...z...<.JYC.C......5...}...............20.57.171.16.in-addr.arpa..............,.3.ec2-16-171-57-20
+eu-north-1.compute	amazonaws.com...)........
+19:04:11.995377 IP (tos 0xc0, ttl 64, id 12699, offset 0, flags [none], proto ICMP (1), length 173)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 35522 unreachable, length 153
+	IP (tos 0x0, ttl 60, id 31443, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35522: 41628 1/0/1 20.57.171.16.in-addr.arpa. PTR ec2-16-171-57-20.eu-north-1.compute.amazonaws.com. (117)
+E...1...@.......C.C.........E...z...<.JYC.C......5...}...............20.57.171.16.in-addr.arpa..............,.3.ec2-16-171-57-20
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.028970 IP (tos 0x0, ttl 60, id 31450, offset 0, flags [none], proto UDP (17), length 147)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39745: 60305 1/0/1 252.135.53.13.in-addr.arpa. PTR ec2-13-53-135-252.eu-north-1.compute.amazonaws.com. (119)
+E...z...<.JPC.C......5.A.. ..............252.135.53.13.in-addr.arpa..............,.4.ec2-13-53-135-252
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.029782 IP (tos 0x0, ttl 64, id 1568, offset 0, flags [DF], proto UDP (17), length 82)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.40563 > 67.207.67.3.domain: 7738+ [1au] PTR? 131.0.171.16.in-addr.arpa. (54)
+E..R. @.@.{J....C.C..s.5.>...:...........131.0.171.16.in-addr.arpa.......)........
+19:04:12.029856 IP (tos 0x0, ttl 64, id 60603, offset 0, flags [DF], proto UDP (17), length 82)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.50126 > 67.207.67.2.domain: 45350+ [1au] PTR? 131.0.171.16.in-addr.arpa. (54)
+E..R..@.@.......C.C....5.>...&...........131.0.171.16.in-addr.arpa.......)........
+19:04:12.029912 IP (tos 0x0, ttl 64, id 63774, offset 0, flags [DF], proto UDP (17), length 82)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01.51957 > 67.207.67.2.domain: 20589+ [1au] PTR? 131.0.171.16.in-addr.arpa. (54)
+E..R..@.@..L....C.C....5.>..Pm...........131.0.171.16.in-addr.arpa.......)........
+19:04:12.037457 IP (tos 0x0, ttl 60, id 31451, offset 0, flags [none], proto UDP (17), length 147)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.58317: 14028 1/0/1 252.135.53.13.in-addr.arpa. PTR ec2-13-53-135-252.eu-north-1.compute.amazonaws.com. (119)
+E...z...<.JOC.C......5.....36............252.135.53.13.in-addr.arpa..............,.4.ec2-13-53-135-252
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.037500 IP (tos 0xc0, ttl 64, id 12705, offset 0, flags [none], proto ICMP (1), length 175)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 58317 unreachable, length 155
+	IP (tos 0x0, ttl 60, id 31451, offset 0, flags [none], proto UDP (17), length 147)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.58317: 14028 1/0/1 252.135.53.13.in-addr.arpa. PTR ec2-13-53-135-252.eu-north-1.compute.amazonaws.com. (119)
+E...1...@.......C.C.........E...z...<.JOC.C......5.....36............252.135.53.13.in-addr.arpa..............,.4.ec2-13-53-135-252
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.038799 IP (tos 0x0, ttl 60, id 34520, offset 0, flags [none], proto UDP (17), length 147)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49868: 38657 1/0/1 252.135.53.13.in-addr.arpa. PTR ec2-13-53-135-252.eu-north-1.compute.amazonaws.com. (119)
+E.......<.>QC.C......5....M..............252.135.53.13.in-addr.arpa..............,.4.ec2-13-53-135-252
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.038833 IP (tos 0xc0, ttl 64, id 60902, offset 0, flags [none], proto ICMP (1), length 175)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.3: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 49868 unreachable, length 155
+	IP (tos 0x0, ttl 60, id 34520, offset 0, flags [none], proto UDP (17), length 147)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.49868: 38657 1/0/1 252.135.53.13.in-addr.arpa. PTR ec2-13-53-135-252.eu-north-1.compute.amazonaws.com. (119)
+E.......@..v....C.C.........E.......<.>QC.C......5....M..............252.135.53.13.in-addr.arpa..............,.4.ec2-13-53-135-252
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.041916 IP (tos 0x0, ttl 60, id 31452, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.50126: 45350 1/0/1 131.0.171.16.in-addr.arpa. PTR ec2-16-171-0-131.eu-north-1.compute.amazonaws.com. (117)
+E...z...<.JPC.C......5...}...&...........131.0.171.16.in-addr.arpa..............,.3.ec2-16-171-0-131
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.052571 IP (tos 0x0, ttl 60, id 13141, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51957: 20589 1/0/1 131.0.171.16.in-addr.arpa. PTR ec2-16-171-0-131.eu-north-1.compute.amazonaws.com. (117)
+E...3U..<...C.C......5...}..Pm...........131.0.171.16.in-addr.arpa..............,.3.ec2-16-171-0-131
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.052618 IP (tos 0xc0, ttl 64, id 12706, offset 0, flags [none], proto ICMP (1), length 173)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 51957 unreachable, length 153
+	IP (tos 0x0, ttl 60, id 13141, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51957: 20589 1/0/1 131.0.171.16.in-addr.arpa. PTR ec2-16-171-0-131.eu-north-1.compute.amazonaws.com. (117)
+E...1...@.......C.C.........E...3U..<...C.C......5...}..Pm...........131.0.171.16.in-addr.arpa..............,.3.ec2-16-171-0-131
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.062959 IP (tos 0x0, ttl 60, id 61402, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.40563: 7738 1/0/1 131.0.171.16.in-addr.arpa. PTR ec2-16-171-0-131.eu-north-1.compute.amazonaws.com. (117)
+E.......<..PC.C......5.s.}8K.:...........131.0.171.16.in-addr.arpa..............,.3.ec2-16-171-0-131
+eu-north-1.compute	amazonaws.com...)........
+19:04:12.063022 IP (tos 0xc0, ttl 64, id 60904, offset 0, flags [none], proto ICMP (1), length 173)
+    lamp-ubuntu-s-1vcpu-1gb-tor1-01 > 67.207.67.3: ICMP lamp-ubuntu-s-1vcpu-1gb-tor1-01 udp port 40563 unreachable, length 153
+	IP (tos 0x0, ttl 60, id 61402, offset 0, flags [none], proto UDP (17), length 145)
+    67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.40563: 7738 1/0/1 131.0.171.16.in-addr.arpa. PTR ec2-16-171-0-131.eu-north-1.compute.amazonaws.com. (117)
+E.......@..v....C.C.........E.......<..PC.C......5.s.}8K.:...........131.0.171.16.in-addr.arpa..............,.3.ec2-16-171-0-131
+eu-north-1.compute	amazonaws.com...)........
+

@@ -1,2 +1,15 @@
 Firewall: rules that govern inbound and outbound traffic
 Default: all traffic is allowed on port 22, 80, 443
+
+By options
+-A : append or add a rule
+
+iptables -A INPUT
+iptables -A OUTPUT
+
+-i => interface
+
+iptables -A INPUT -i eth0 -p tcp -s 12.34.56.78 -dport 443 -j 
+
+//refuse all port 80 traffic
+iptables -A INPUT -dport 80 -j DROP

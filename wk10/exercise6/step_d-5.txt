@@ -1,0 +1,2 @@
+Issue: The %2e%2e%2f value in the query parameter represents the characters ../, which is used to navigate up one level in the directory structure. The issue with this query result is that it may indicate that the PHP script is vulnerable to a directory traversal attack.
+Sensitive information: Directory names

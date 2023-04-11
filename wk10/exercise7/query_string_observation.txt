@@ -1,0 +1,4 @@
+1) The website displays the definition and other relevant information for the word. The page loads without any issues, and the expected content is displayed. No error messages or unexpected behavior observed. 
+2) The website displays an error message "No result found for <invalid word>" indicating that the word could not be found. 
+3) The wesite displays error No results found for <script>alert('hello')</script>
+4) The website display 400 error, bad request

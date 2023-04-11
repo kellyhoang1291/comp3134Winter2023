@@ -1,0 +1,5 @@
+Convert all HTML comments to PHP comments
+
+<?php /* This is an example of a PHP comment that will not be visible in the browser */ ?>
+<h1>This is an example of an H1 header tag</h1>
+<?php /* Created by John Smith with employee id: 123456 */ ?>

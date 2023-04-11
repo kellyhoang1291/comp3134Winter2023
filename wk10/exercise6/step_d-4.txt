@@ -1,0 +1,2 @@
+This query result is that it may indicate that the PHP script is vulnerable to a directory traversal attack. 
+The sensitive information that may be exposed in this query result includes: Directory names 

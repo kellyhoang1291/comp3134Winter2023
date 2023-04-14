@@ -1,0 +1,7 @@
+The storexss.txt contains a potentially malicious URL redirect statement (document.location.href="/directory_traversal_part1.php") 
+that can be used for a directory traversal attack. 
+
+If the contents of storexss.txt are later displayed on a web page without proper sanitization in the storexss.php script, 
+it can result in the execution of this script on the web page. This can lead to the attacker being able to redirect users 
+to a different web page (/directory_traversal_part1.php in this case), potentially allowing them to access sensitive files 
+or perform other malicious activities on the server.

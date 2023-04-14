@@ -1,0 +1,2 @@
+The main difference is that the csfr_form.php includes an additional hidden input field for "confirmation" which allows for verification of the value in the PHP code, 
+while the csfr.html does not include this hidden input field, resulting in a failure message in the PHP code.
